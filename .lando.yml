@@ -1,0 +1,9 @@
+name: born-lando
+recipe: drupal8
+config:
+  webroot: docroot
+
+tooling:
+  blt:
+    service: appserver
+    cmd: /usr/bin/blt
