@@ -1,0 +1,12 @@
+parameters:
+  ascii:
+    failed: ~
+    succeeded: ~
+  tasks:
+    phpcs:
+      standard: vendor/drupal/coder/coder_sniffer/Drupal/
+      ignore_patterns:
+        - vendor/
+        - dist/
+        - build/
+        - tests/
