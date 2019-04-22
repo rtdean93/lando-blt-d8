@@ -1,0 +1,16 @@
+# Breakpoints - change based on site need
+born_pattern_library.small:
+  label: small
+  mediaQuery: 'all and (min-width: 25em)'
+born_pattern_library.small-med:
+  label: small-med
+  mediaQuery: 'all and (min-width: 26em)'
+born_pattern_library.small-large:
+  label: small-large
+  mediaQuery: 'all and (min-width: 41em)'
+born_pattern_library.medium:
+  label: medium
+  mediaQuery: 'all and (min-width: 48em)'
+born_pattern_library.large:
+  label: large
+  mediaQuery: 'all and (min-width: 61.25em)'
