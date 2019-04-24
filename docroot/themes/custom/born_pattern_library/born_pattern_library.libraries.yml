@@ -2,7 +2,6 @@ global:
   css:
     theme:
       dist/style.css: {}
-      'https://borngroup.invisionapp.com/dsm-export/born-group/arctic-fox-2019/_style-params.css?snapshotId=5c8958b0e17f932bc8d8954c&key=ByV5YoePE': { type: external }
 
 main-menu:
   js:
