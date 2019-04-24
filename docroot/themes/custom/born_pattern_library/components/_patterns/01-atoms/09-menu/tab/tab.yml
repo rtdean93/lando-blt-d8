@@ -4,3 +4,5 @@ tab_link:
   "#"
 tab_text:
   "View"
+ui_pattern_definition:
+  ignore: true
