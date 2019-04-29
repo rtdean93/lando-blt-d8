@@ -1,6 +1,0 @@
-name: 'Paragraph Banner'
-type: module
-core: 8.x
-dependencies:
-  - field
-  - paragraphs

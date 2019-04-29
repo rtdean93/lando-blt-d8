@@ -1,8 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  content:
-    - 'file:file:abaac93e-7733-40d2-bff7-5862716c27d5'
+dependencies: {  }
 id: banner
 label: Banner
 icon_uuid: abaac93e-7733-40d2-bff7-5862716c27d5
