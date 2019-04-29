@@ -3,7 +3,7 @@ project:
   prefix: BRN
   human_name: 'Born Drupal'
   profile:
-    name: standard
+    name: delta
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
