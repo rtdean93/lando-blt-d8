@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d77c8e498c08fc6ec55c8780204d4cf",
+    "content-hash": "58c67548c9ac1895dcc569a6a652aaf1",
     "packages": [
         {
             "name": "acquia/blt",
@@ -16674,6 +16674,11 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.7.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "67a7ce1f3361e4731401e35243bfe17eddba1b62"
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",

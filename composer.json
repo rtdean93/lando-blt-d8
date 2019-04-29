@@ -26,6 +26,7 @@
         "drupal/core": "^8.7.0-rc1",
         "drupal/ds": "^3.3",
         "drupal/entity_usage": "^2.0",
+        "drupal/features": "^3.8",
         "drupal/layout_builder_enhancements": "^1.0",
         "drupal/layout_builder_restrictions": "^1.5",
         "drupal/paragraph_blocks": "^2.1",
