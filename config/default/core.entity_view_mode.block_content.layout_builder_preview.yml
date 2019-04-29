@@ -1,0 +1,15 @@
+uuid: 18ce4d45-b0c4-4503-9d95-8da5fcb89ce9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - layout_builder_enhancements
+  module:
+    - block_content
+_core:
+  default_config_hash: e0YMuGZ2eM6uVDJMRHmguyPWSwOLK3h-sBMHISl9y0M
+id: block_content.layout_builder_preview
+label: 'Layout builder preview'
+targetEntityType: block_content
+cache: true

@@ -1,14 +1,14 @@
+uuid: 3603bc08-1357-43af-9aa3-0b4388e3b79b
 name: 'Born Drupal'
 mail: no-reply@acquia.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: iSfjxt7DRmZpmAT7MWLPrLTZZR0qqw01HpFgmxt5sFI
-uuid: f16bffb4-000a-4c6f-976c-ca2b6d6f8b68
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
