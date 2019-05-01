@@ -9,6 +9,7 @@ module:
   config: 0
   config_filter: 0
   config_split: 0
+  config_update: 0
   contextual: 0
   ctools: 0
   datetime: 0
@@ -17,6 +18,8 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
+  features: 0
+  features_ui: 0
   field: 0
   field_ui: 0
   file: 0

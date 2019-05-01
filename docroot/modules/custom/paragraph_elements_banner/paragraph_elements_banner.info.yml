@@ -1,8 +1,0 @@
-name: Banner
-description: 'Provides Banner paragraphs type and related configuration. '
-type: module
-core: 8.x
-dependencies:
-  - field
-  - paragraphs
-package: 'Paragraph Elements'
