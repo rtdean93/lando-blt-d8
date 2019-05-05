@@ -1,0 +1,10 @@
+banner_text:
+  "This is a Title"
+banner_logo:
+  "https://placeimg.com/480/300/people"
+banner_background:
+  "https://imgplaceholder.com/900x320/cccccc/c6c0c0/glyphicon-picture"
+card_img_alt:
+  "This is the card image's alt text"
+banner_cta_text: "button text"
+banner_cta_url: "http://newsite4.com"

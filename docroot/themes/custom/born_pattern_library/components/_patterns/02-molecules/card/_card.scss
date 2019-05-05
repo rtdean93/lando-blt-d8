@@ -31,3 +31,31 @@
   background-color: $gray-lightest;
   padding: 1em;
 }
+
+.card-text {
+h2.card-heading__title {
+    width: 678px;
+    height: 64px;
+    font-family: TradeGothicLTStd;
+    font-size: 33.2px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: 4px;
+    text-align: center;
+    color: var(--grey-10);
+    margin: 96px auto;
+    margin-bottom: 40px
+}
+
+button.button {
+    margin-bottom: 112px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 356px;
+}
+
+
+    text-align: center;
+}

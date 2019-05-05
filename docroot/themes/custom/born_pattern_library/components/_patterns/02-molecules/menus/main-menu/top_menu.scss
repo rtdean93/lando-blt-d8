@@ -1,0 +1,50 @@
+li.menu__item {
+    float: left;
+    margin-right: 1em;
+}
+
+ul.menu {
+    float: right;
+    list-style: none;
+    margin: 5px;
+}
+
+nav#block-topmenu-2 {
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin-bottom: 12px;
+}
+
+
+
+a.menu__link {
+  width: 94px;
+  height: 14px;
+  font-family: TradeGothicLTStd;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+div#block-sitebranding-2 {
+    margin-left: 56px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+div#main-nav {
+    margin-left: 350px;
+    margin-top: -10px;
+}
+
+header.header {
+    margin-bottom: 0;
+}
