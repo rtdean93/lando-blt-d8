@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d9e3ef055b11a70729eea5167562e5f",
+    "content-hash": "e58e2d4637c9e380aeec3bac82a88df4",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8935,6 +8935,53 @@
             }
         },
         {
+            "name": "drupal/toolbar_menu",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/toolbar_menu.git",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/toolbar_menu-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "e51de8dd3c75b3cb07af6583210d0194be6c623e"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1495180684",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "vpeltot",
+                    "homepage": "https://www.drupal.org/user/1361586"
+                }
+            ],
+            "description": "Add your favorite menu (Structure > Menu) in the Drupal Toolbar",
+            "homepage": "https://www.drupal.org/project/toolbar_menu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/toolbar_menu"
+            }
+        },
+        {
             "name": "drupal/twig_extensions",
             "version": "2.0.0",
             "source": {
@@ -16147,167 +16194,6 @@
             ],
             "description": "Mink driver for controlling chrome without selenium",
             "time": "2019-03-30T09:22:58+00:00"
-        },
-        {
-            "name": "drupal/paragraphs_browser",
-            "version": "1.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/paragraphs_browser.git",
-                "reference": "8.x-1.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs_browser-8.x-1.0-alpha2.zip",
-                "reference": "8.x-1.0-alpha2",
-                "shasum": "62cfc10b57e6b5b613d88a961534912cb84037d5"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/paragraphs": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha2",
-                    "datestamp": "1545237480",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Deciphered",
-                    "homepage": "https://www.drupal.org/user/103796"
-                },
-                {
-                    "name": "Mojiferous",
-                    "homepage": "https://www.drupal.org/user/1678298"
-                },
-                {
-                    "name": "michaellander",
-                    "homepage": "https://www.drupal.org/user/636494"
-                },
-                {
-                    "name": "tandroid",
-                    "homepage": "https://www.drupal.org/user/2879591"
-                }
-            ],
-            "description": "Provides browser for adding additional paragraphs.",
-            "homepage": "https://www.drupal.org/project/paragraphs_browser",
-            "support": {
-                "source": "https://git.drupalcode.org/project/paragraphs_browser"
-            }
-        },
-        {
-            "name": "drupal/paragraphs_browser_previewer",
-            "version": "1.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/paragraphs_browser_previewer.git",
-                "reference": "8.x-1.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs_browser_previewer-8.x-1.0-alpha2.zip",
-                "reference": "8.x-1.0-alpha2",
-                "shasum": "bcd84f3de8c79d90a8a0581493e61ea0574fda9a"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/paragraphs_browser": "*",
-                "drupal/paragraphs_previewer": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha2",
-                    "datestamp": "1556710681",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "AndrewsizZ",
-                    "homepage": "https://www.drupal.org/user/1156086"
-                },
-                {
-                    "name": "sgurlt",
-                    "homepage": "https://www.drupal.org/user/1592718"
-                }
-            ],
-            "description": "Provides integration between Paragraphs Previewer and paragraphs Browser.",
-            "homepage": "https://www.drupal.org/project/paragraphs_browser_previewer",
-            "support": {
-                "source": "https://git.drupalcode.org/project/paragraphs_browser_previewer"
-            }
-        },
-        {
-            "name": "drupal/paragraphs_previewer",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/paragraphs_previewer.git",
-                "reference": "8.x-1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs_previewer-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "ce1cae69b03df264f2413a7ada8d19d8e26b352b"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/paragraphs": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1550182980",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "recrit",
-                    "homepage": "https://www.drupal.org/user/452914"
-                }
-            ],
-            "description": "Provides a rendered preview of a paragraphs item while on an entity form.",
-            "homepage": "https://www.drupal.org/project/paragraphs_previewer",
-            "support": {
-                "source": "https://git.drupalcode.org/project/paragraphs_previewer"
-            }
         },
         {
             "name": "jakoch/phantomjs-installer",
